@@ -1,0 +1,5 @@
+com/jsonna/App.class
+com/jsonna/Reader/DatabaseReader.class
+com/jsonna/Reader/FileReader.class
+com/jsonna/Reader/Reader.class
+com/jsonna/DatabaseReader.class
