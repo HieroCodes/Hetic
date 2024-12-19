@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--background);
+  background: var(--background);
+  font-family: Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.navbar_home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.navbar_home ul{
+  display: flex;
+
+}
+.navbar_home ul li{
+  margin-left: 1em;
+  font-size: 20px;
+}

@@ -1,0 +1,4 @@
+{
+  "/backend/db/api/wifi_city/route": "app/backend/db/api/wifi_city/route.js",
+  "/frontend/wifi_NYC/page": "app/frontend/wifi_NYC/page.js"
+}
