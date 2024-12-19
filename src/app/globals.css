@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 
 @media (prefers-color-scheme: dark) {
@@ -11,7 +12,7 @@
 }
 
 body {
-  color: var(--background);
+  color: var(--foreground);
   background: var(--background);
   font-family: Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bolder;
@@ -32,3 +33,4 @@ body {
   margin-left: 1em;
   font-size: 20px;
 }
+

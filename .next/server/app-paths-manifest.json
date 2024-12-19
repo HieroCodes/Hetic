@@ -1,4 +1,6 @@
 {
   "/backend/db/api/wifi_city/route": "app/backend/db/api/wifi_city/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/frontend/wifi_NYC/page": "app/frontend/wifi_NYC/page.js"
 }
