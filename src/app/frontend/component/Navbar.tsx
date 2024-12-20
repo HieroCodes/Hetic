@@ -70,26 +70,20 @@ export default function Navbar({ style }: NavbarProps) {
               className={`nav-item ${active === "Dashboard" ? "active" : ""}`}
               onClick={(e) => handleActive("Dashboard", e.currentTarget)}
             >
-              <a className="nav-link">
+              <a className="nav-link" href="/frontend/menu/dashboard">
                 <FontAwesomeIcon icon={faTachometerAlt} /> Dashboard
               </a>
             </li>
+           
             <li
-              className={`nav-item ${active === "Address Book" ? "active" : ""}`}
-              onClick={(e) => handleActive("Address Book", e.currentTarget)}
+              className={`nav-item ${active === "Statistics" ? "active" : ""}`}
+              onClick={(e) => handleActive("Statistics", e.currentTarget)}
             >
-              <a className="nav-link">
-                <FontAwesomeIcon icon={faDatabase} /> DataBase
-              </a>
-            </li>
-            <li
-              className={`nav-item ${active === "Components" ? "active" : ""}`}
-              onClick={(e) => handleActive("Components", e.currentTarget)}
-            >
-              <a className="nav-link">
+              <a className="nav-link" href="/frontend/menu/statistics">
                 <FontAwesomeIcon icon={faChartGantt} /> Statistics
               </a>
             </li>
+
           </ul>
         </div>
       </div>

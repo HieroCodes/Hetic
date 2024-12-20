@@ -6,22 +6,32 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/frontend/wifi_NYC/page": [
+    "/frontend/menu/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/frontend/wifi_NYC/page.css",
-      "static/chunks/app/frontend/wifi_NYC/page.js"
+      "static/css/app/frontend/menu/dashboard/page.css",
+      "static/chunks/app/frontend/menu/dashboard/page.js"
     ],
     "/backend/db/api/wifi_city/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/backend/db/api/wifi_city/route.js"
     ],
-    "/page": [
+    "/frontend/menu/statistics/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/css/app/frontend/menu/statistics/page.css",
+      "static/chunks/app/frontend/menu/statistics/page.js"
+    ],
+    "/backend/db/api/wifi_city/stats/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/backend/db/api/wifi_city/stats/route.js"
+    ],
+    "/backend/db/api/wifi_city/filter/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/backend/db/api/wifi_city/filter/route.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

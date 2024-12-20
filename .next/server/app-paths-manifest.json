@@ -1,6 +1,8 @@
 {
-  "/backend/db/api/wifi_city/route": "app/backend/db/api/wifi_city/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/frontend/wifi_NYC/page": "app/frontend/wifi_NYC/page.js"
+  "/backend/db/api/wifi_city/filter/route": "app/backend/db/api/wifi_city/filter/route.js",
+  "/backend/db/api/wifi_city/stats/route": "app/backend/db/api/wifi_city/stats/route.js",
+  "/backend/db/api/wifi_city/route": "app/backend/db/api/wifi_city/route.js",
+  "/frontend/menu/dashboard/page": "app/frontend/menu/dashboard/page.js",
+  "/frontend/menu/statistics/page": "app/frontend/menu/statistics/page.js"
 }

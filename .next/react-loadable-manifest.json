@@ -16,5 +16,12 @@
     "files": [
       "static/chunks/_app-pages-browser_node_modules_popper_js_dist_esm_popper_js.js"
     ]
+  },
+  "app/frontend/menu/dashboard/page.tsx -> ../../component/Map": {
+    "id": "app/frontend/menu/dashboard/page.tsx -> ../../component/Map",
+    "files": [
+      "static/css/_app-pages-browser_src_app_frontend_component_Map_tsx.css",
+      "static/chunks/_app-pages-browser_src_app_frontend_component_Map_tsx.js"
+    ]
   }
 }
